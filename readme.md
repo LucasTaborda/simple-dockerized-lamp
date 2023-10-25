@@ -1,5 +1,9 @@
 # LAMP dockerizado
 
+## Versiones del softwware
+- PHP 7.4
+- MySQL 5.7
+
 ## Requisitos:
 
 Tener docker previamente instalado en el sistema.
