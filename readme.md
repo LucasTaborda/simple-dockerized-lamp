@@ -1,9 +1,20 @@
 # LAMP dockerizado
 
+## Requisitos:
+
+Tener docker previamente instalado en el sistema.
+
 ## Instalación:
 
-Clonar proyecto y levantar la imagen.
-
+1. Clonar proyecto
+```
+git clone https://github.com/LucasTaborda/simple-dockerized-lamp.git
+```
+2. Entrar en la carpeta raíz.
+```
+cd simple-dockerized-lamp
+```
+3. Levantar imagen
 ```
 docker compose up -d
 ```
