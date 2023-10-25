@@ -1,6 +1,6 @@
 # LAMP dockerizado
 
-## Versiones del softwware
+## Versiones del software
 - PHP 7.4
 - MySQL 5.7
 
