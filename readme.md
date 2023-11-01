@@ -11,16 +11,28 @@ Tener docker previamente instalado en el sistema.
 ## Instalación:
 
 1. Clonar proyecto
-```
+```bash
 git clone https://github.com/LucasTaborda/simple-dockerized-lamp.git
 ```
 2. Entrar en la carpeta raíz.
-```
+```bash
 cd simple-dockerized-lamp
 ```
 3. Levantar imagen
-```
+```bash
 docker compose up -d
+```
+### Agregar virtual hosts
+
+1. Agrega el archivo .conf en la carpeta ./virtual_hosts y usa el siguiente comando cambiando mi-nuevo-virtualhost.conf por el nombre que corresponda:
+
+```bash
+docker exec -it lamp-web-1 a2ensite mi-nuevo-virtualhosts.conf
+```
+2. Reinicia apache para que tome los cambios.
+
+```bash
+docker exec -it lamp-web-1 serviche apache2 restart
 ```
 
 ## Volúmenes
