@@ -22,7 +22,9 @@ cd simple-dockerized-lamp
 ```bash
 docker compose up -d
 ```
-### Agregar virtual hosts
+Ya deberías poder entrar a localhost y ver la información de php como se ve en el index.php.
+
+### Cómo agregar virtual hosts
 
 1. Agrega el archivo .conf en la carpeta ./virtual_hosts y usa el siguiente comando cambiando mi-nuevo-virtualhost.conf por el nombre que corresponda:
 
